@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>weather.api</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" />
+  </head>
+  <body>
+    <section id="navBar">
+      <div id="nav">Weather Api</div>
+    </section>
+    <section id="box">
+      <input type="text" id="search" />
+      <button id="button" onclick="api()">search</button>
+
+      <div>
+        <h1 id="city"></h1>
+      </div>
+      <div>
+        <h1 id="cldName"></h1>
+      </div>
+      <div id="cloud-img">
+        <img id="cloudpic" src="images/cloud-icon-8.png" />
+        <p id="cloudid"></p>
+      </div>
+      <div>
+        <img id="windpic" src="images/wind.png" />
+        <p id="windid">0ms</p>
+      </div>
+      <div id="row">
+        <div id="column">
+          <img id="temppic" src="images/Temperature-PNG-File.png" />
+          <p id="tempid">0℃</p>
+          <img id="humidpic" src="images/humidity.png" />
+          <p id="humid">0%</p>
+        </div>
+      </div>
+    </section>
+  </body>
+  <script src="script.js"></script>
+</html>

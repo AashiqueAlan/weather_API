@@ -1,0 +1,154 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+#navBar {
+  background-color: antiquewhite;
+  height: 10vh;
+}
+#nav {
+  text-align: center;
+  padding-top: 10px;
+  font-size: 35px;
+  color: rgb(155, 100, 59);
+}
+#box {
+  width: 20%;
+  height: 100%;
+  position: relative;
+  background: linear-gradient(to right, rgb(239, 34, 184), rgb(64, 33, 142));
+  padding: 10px;
+  top: 20vh;
+  left: 81vh;
+  border: 1px solid bisque;
+  border-radius: 10px;
+}
+#search {
+  width: 25vh;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+}
+#city {
+  text-align: center;
+  padding-top: 40px;
+}
+#button {
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  position: relative;
+  left: 1vh;
+}
+#cloud-img img {
+  float: left;
+  margin-left: 15vh;
+  height: 60px;
+  position: relative;
+  top: -10px;
+  bottom: 50px;
+  padding-bottom: 20px;
+}
+#column {
+  display: flex;
+  float: left;
+  position: relative;
+  right: 6vh;
+  width: 130%;
+  /* padding: 10px; */
+  padding-left: 10%;
+  gap: 4rem;
+  height: 30px;
+  justify-content: space-around;
+}
+#row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+#temppic {
+  height: 50px;
+  position: relative;
+  bottom: 19px;
+}
+#tempid {
+  position: relative;
+  right: 70px;
+  top: 10px;
+}
+#humid {
+  position: relative;
+  right: 60px;
+  top: 10px;
+}
+#cldName {
+  font-style: italic;
+  text-align: center;
+  padding: 20px;
+  padding-bottom: 10px;
+}
+#windpic {
+  margin-left: 18vh;
+  position: relative;
+  top: -10px;
+  bottom: 50px;
+  padding-bottom: 10px;
+  width: 40px;
+}
+#windid {
+  text-align: center;
+  position: relative;
+  top: -20px;
+  font-size: 30px;
+}
+@media screen and (max-width: 460px) {
+  #navBar {
+    width: 120vh;
+    height: 15vh;
+  }
+  #nav {
+    text-align: center;
+    padding-top: 10px;
+  }
+  #box {
+    width: 70%;
+    height: 100%;
+    position: relative;
+    padding: 10px;
+    top: 30vh;
+    left: 30vh;
+    border-radius: 10px;
+  }
+  #search {
+    width: 30vh;
+  }
+  #cloud-img img {
+    left: 15px;
+  }
+  #windid {
+    font-size: 25px;
+  }
+  #windpic {
+    left: 13px;
+  }
+  #column {
+    position: relative;
+    right: 5vh;
+    left: -7vh;
+    gap: 3.5rem;
+  }
+  #tempid {
+    position: relative;
+    right: 1-0px;
+    top: 10px;
+  }
+  #humid {
+    position: relative;
+    left: -65px;
+    top: 10px;
+  }
+  #humidpic {
+    position: relative;
+    left: -10px;
+  }
+}
